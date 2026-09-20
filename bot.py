@@ -8,7 +8,8 @@ from telegram.ext import (
     filters
 )
 
-TOKEN = "8808502475:AAHLB2S8IqEsAjqXDOqyMAWupvJrE88sLlE"
+import os
+TOKEN = os.environ["BOT_TOKEN"]
 
 # -------------------------
 # منوی اصلی
